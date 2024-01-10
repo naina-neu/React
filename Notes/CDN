@@ -1,1 +1,10 @@
-What is CDN?
+1] CDN?-  network of interconnected servers that speeds up webpage loading for data-heavy applications.
+
+2]CDN caching work? dependent on caching static content. The data is stored and cached by the CDN edge servers.
+
+The following is an example of a typical CDN caching process:
+A web server in Chicago hosts static web content that a website visitor located in Washington, D.C., requests.
+Once the origin server in Chicago receives the request, it sends a response to the website visitor. Simultaneously, it delivers a copy of the response to the CDN point-of-presence (POP) that's geographically closest to the website visitor.
+The CDN POP stores its copy as a cached file.
+When the same visitor or another visitor in that location makes a similar request again, the caching server -- not the origin server -- delivers the response
+
